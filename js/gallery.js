@@ -33,7 +33,6 @@ function upDate(previewPic){
         imageDiv.setAttribute('tabindex', '0');
 
         for(let i = 0; i < images.length; i++) {
-            images[i].setAttribute('tabindex', '0');
-            console.log(`Tabindex set for image: ${images[i].src}`);
+            images[i].setAttribute('tabindex', '0');            
         }
     }
